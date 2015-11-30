@@ -1,0 +1,166 @@
+body{
+	background-color: lightseagreen;
+}
+/* Main Navigation Items */
+.mainNav{
+	height: 50px;
+	background-color: black;
+	
+}
+
+/*List items under weather nav*/
+.weatherMain 
+ {
+	display: block;
+	position: relative;
+	float: left;
+	border:4px solid #000;
+	margin: 4px;
+	z-index: 2;
+	height: 35px; 
+		
+}
+.weatherMain a 
+ {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*List items under the travel nav*/
+.travelMain 
+ {
+	display: inline-block;
+	position: relative;
+	border:4px solid #000;
+	margin: 4px;
+	z-index: 1;
+	height: 35px; 
+}
+.travelMain a
+{
+	text-decoration: none;
+	color: whitesmoke
+}
+
+/*List items under the road nav*/
+.roadsMain
+{
+	display: block;
+	position: relative;
+	float: left;
+	border:4px solid #000;
+	margin: 4px;
+	z-index: 2;	
+	height: 35px; 
+}
+.roadsMain a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*List item under home& garden nav*/
+.homeGardenMain
+{
+	display: block;
+	position: relative;
+	float: left;
+	border:4px solid #000;
+	margin: 4px;
+	z-index: 1;	
+	height: 35px; 	
+}
+.homeGardenMain a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*List items under activites*/
+.activitiesMain
+{
+	display: block;
+	position: relative;
+	float: left;
+	border:4px solid #000;
+	margin: 4px;
+	z-index: 2;	
+	height: 35px; 
+}
+.activitiesMain a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*List items under health & Enviroment*/
+.healthEnvironmentMain{
+	display: block;
+	position: relative;
+	float: left;
+	border:4px solid #000;
+	margin: 4px;
+	z-index: 1;	
+	height: 35px; 
+}
+.healthEnvironmentMain a{
+	text-decoration: none;
+	color: whitesmoke
+}
+
+
+/*Setting the hover menu on all items under the mains sections*/
+
+li ul 
+{
+	display: none;
+	
+}
+ul li a 
+{
+	display: inline-block;
+	background: black;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	color: white;
+	
+}
+ul li a:hover 
+{
+	background: black;
+	
+}
+li:hover ul
+{
+	display: block;
+	position: absolute;
+	min-width: 45px;
+	
+}
+li:hover li
+{
+	float: none;
+}
+li:hover a 
+{
+	background: black;
+}
+li:hover li a:hover 
+{
+	background: blue;
+}
+
+/*Ajusting the placment of writing.*/
+.p1{
+	float: left;
+	
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+	
+}
+footer{
+	position: absolute; bottom: 0%; right: 3%;
+}
+/*test*/
+.testBorder {
+	border: 5px dotted red;
+}
